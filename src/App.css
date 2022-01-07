@@ -30,7 +30,7 @@ body {
   grid-gap: 10px;
 }
 
-.content {
+.app-wrapper-content {
   grid-area: c;
 }
 

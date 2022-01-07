@@ -1,0 +1,39 @@
+.wrapper {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    font-size: 20px;
+}
+
+.dialogs {
+    margin-right: 200px;
+}
+
+.dialog {
+    margin-bottom: 20px;
+    padding-right: 30px;
+    width: 100px;
+}
+
+.dialog a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.dialog a:focus {
+    border-bottom: 2px solid var(--bright-bg-color);
+}
+
+.dialog:hover {
+    background-color: var(--bright-bg-color);
+    cursor: pointer;
+}
+
+.messages {
+
+}
+
+.message {
+    margin-bottom: 20px;
+}

@@ -1,5 +1,4 @@
 .content {
-    grid-area: c;
     background-color: var(--secondary-bg-color);
     color: var(--secondary-color);
     border-radius: 5px;
