@@ -2,13 +2,18 @@ import React from 'react';
 import ava from './avatar.jpg';
 import classes from './Post.module.css';
 
-const Post = () => {
+type PostType = {
+    message: string
+    likesCount: number
+}
+
+const Post: React.FC<PostType> = (props) => {
     return (
         <div className={classes.post}>
             <img src={ava} alt="ava"/>
             <div>
-                <h2>Post</h2>
-                <span>like</span>
+                <p>{props.message}</p>
+                <p>likes: {props.likesCount}</p>
             </div>
         </div>
     );
