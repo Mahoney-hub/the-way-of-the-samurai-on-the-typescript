@@ -1,0 +1,22 @@
+.nav {
+    grid-area: n;
+    background-color: var(--dark-bg-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+.nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.nav__item {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav__item:hover {
+    background-color: var(--secondary-bg-color);
+}
