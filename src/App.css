@@ -1,37 +1,37 @@
 :root {
-  --main-color: #2d3033;
-  --secondary-color: #d4dde1;
-  --main-bg-color: #d4dde1;
-  --secondary-bg-color: #335252;
-  --bright-bg-color: #AA4B41;
-  --dark-bg-color: #2d3033;
+    --main-color: #2d3033;
+    --secondary-color: #d4dde1;
+    --main-bg-color: #d4dde1;
+    --secondary-bg-color: #335252;
+    --bright-bg-color: #AA4B41;
+    --dark-bg-color: #2d3033;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  color: var(--main-color);
-  background-color: var(--main-bg-color);
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
 }
 
 .app-wrapper {
-  width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-areas:
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
     "h h"
     "n c";
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 150px 1fr;
-  grid-gap: 10px;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 10px;
 }
 
 .app-wrapper-content {
-  grid-area: c;
+    grid-area: c;
 }
 
 
