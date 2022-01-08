@@ -11,6 +11,10 @@
     color: var(--secondary-color);
 }
 
+.nav a.active {
+    color: var(--bright-bg-color);
+}
+
 .nav__item {
     margin-left: 10px;
     margin-top: 10px;
@@ -20,3 +24,5 @@
 .nav__item:hover {
     background-color: var(--secondary-bg-color);
 }
+
+
