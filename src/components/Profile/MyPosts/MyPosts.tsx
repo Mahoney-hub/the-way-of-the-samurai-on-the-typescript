@@ -17,6 +17,7 @@ const MyPosts = (props:any) => {
     const addPost = () => {
         let text = newPostElement.current.value
         props.addPost(text)
+        newPostElement.current.value = ''
     }
 
     return (
