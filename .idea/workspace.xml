@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c945294-11b5-4d6c-a2d4-6398be5f206a" name="Changes" comment="lesson 21">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.tsx" afterDir="false" />
+    <list default="true" id="2c945294-11b5-4d6c-a2d4-6398be5f206a" name="Changes" comment="lesson 23">
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/state.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/bg_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/bg_img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../БЕСПЛАТНЫЙ КУРС/react/myapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -63,11 +63,11 @@
       <recent name="D:\Programing\IT-Incubator\Main\social_network\project\src\components\Header" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programing\IT-Incubator\Main\social_network\project\src" />
       <recent name="D:\Programing\IT-Incubator\Main\social_network\project\src\components\Profile\ProfileInfo" />
       <recent name="D:\Programing\IT-Incubator\Main\social_network\project\src\components\Profile\MyPosts\Post" />
       <recent name="D:\Programing\IT-Incubator\Main\social_network\project\src\components\Profile" />
       <recent name="D:\Programing\IT-Incubator\Main\social_network\project\src\components\Navbar" />
-      <recent name="D:\Programing\IT-Incubator\Main\social_network\project\src\components" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +101,12 @@
       <workItem from="1641556114838" duration="11484000" />
       <workItem from="1641580996754" duration="4000" />
       <workItem from="1641587512635" duration="28000" />
-      <workItem from="1641638061363" duration="13609000" />
+      <workItem from="1641638061363" duration="14357000" />
+      <workItem from="1641665096616" duration="22000" />
+      <workItem from="1641903601166" duration="2003000" />
+      <workItem from="1641936519578" duration="7923000" />
+      <workItem from="1641985451931" duration="4817000" />
+      <workItem from="1642118195583" duration="1029000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <created>1641544116245</created>
@@ -152,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641655161088</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lesson 23">
+      <created>1641658085800</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641658085800</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +189,7 @@
     <MESSAGE value="lesson 19" />
     <MESSAGE value="lesson 20" />
     <MESSAGE value="lesson 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 21" />
+    <MESSAGE value="lesson 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 23" />
   </component>
 </project>
