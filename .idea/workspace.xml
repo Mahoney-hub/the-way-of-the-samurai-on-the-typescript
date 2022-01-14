@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c945294-11b5-4d6c-a2d4-6398be5f206a" name="Changes" comment="lesson 23">
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/state.ts" afterDir="false" />
+    <list default="true" id="2c945294-11b5-4d6c-a2d4-6398be5f206a" name="Changes" comment="lesson 30">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +99,7 @@
       <workItem from="1641903601166" duration="2003000" />
       <workItem from="1641936519578" duration="7923000" />
       <workItem from="1641985451931" duration="4817000" />
-      <workItem from="1642118195583" duration="1029000" />
+      <workItem from="1642118195583" duration="1825000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <created>1641544116245</created>
@@ -164,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641658085800</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lesson 30">
+      <created>1642119248901</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642119248901</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +190,7 @@
     <MESSAGE value="lesson 20" />
     <MESSAGE value="lesson 21" />
     <MESSAGE value="lesson 23" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 23" />
+    <MESSAGE value="lesson 30" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 30" />
   </component>
 </project>
