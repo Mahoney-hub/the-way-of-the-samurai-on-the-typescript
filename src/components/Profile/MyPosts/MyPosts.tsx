@@ -9,15 +9,17 @@ type PostDataType = {
 }
 
 const MyPosts = (props:any) => {
-    const postsElement = props.state.posts
+    const postsElement = props.posts
         .map((p:PostDataType) =><Post key={p.id} message={p.message} likesCount={p.likesCount}/>)
 
     let newPostElement:any = React.createRef()
 
     const addPost = () => {
+        props.addPost()
+    }
+    const onPostChange = () => {
         let text = newPostElement.current.value
-        props.addPost(text)
-        newPostElement.current.value = ''
+        props.updateNewPostText(text)
     }
 
     return (
@@ -25,7 +27,7 @@ const MyPosts = (props:any) => {
             <h3>My posts</h3>
             <div>
                 <div>
-                    <textarea ref={newPostElement}></textarea>
+                    <textarea onChange={onPostChange} ref={newPostElement} value={props.newPostText}/>
                 </div>
                 <div>
                     <button onClick={addPost}>Add post</button>
